@@ -1,0 +1,26 @@
+.checkbox{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+        display: flex;
+        align-items: center;
+}
+
+.check{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+
+    
+}
+
+.activ .check{
+    transform: translateX(50px);
+    background-color: rgb(255, 0, 0);
+}
+
+body.activ{
+    background-color: rgb(112, 112, 112);
+}
